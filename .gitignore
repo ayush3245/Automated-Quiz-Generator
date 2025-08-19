@@ -1,0 +1,38 @@
+# Virtual environments
+.venv/
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Test & coverage
+.pytest_cache/
+.coverage
+htmlcov/
+.cache/
+
+# Editors/OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Environment files
+.env
+.env.*
+
+# Opik local config (usually in home, just in case)
+.opik.config
+
+# Runs and artifacts
+runs/*
+!runs/.gitkeep
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Ruff/mypy caches
+.ruff_cache/
+.mypy_cache/

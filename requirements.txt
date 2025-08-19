@@ -1,0 +1,10 @@
+opik
+groq
+typer[all]
+pydantic>=2
+tqdm
+rapidfuzz
+python-dotenv
+pytest
+
+
